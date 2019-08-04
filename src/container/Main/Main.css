@@ -35,7 +35,7 @@
 
   .nav {
     background-color:  #000000;
-    position: static;
+    position: satic;
     top: 0px;
     width: 100%;
     height: 50px;
@@ -46,7 +46,7 @@
   .nav-content {
     max-width: 900px;
     padding: 0rem 4rem;
-    margin: 0 auto;
+    margin: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
