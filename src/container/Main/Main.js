@@ -33,7 +33,7 @@ class Main extends Component{
                 <p>Some information about myself</p>
             </Section>
 
-            <Section dark={true} id='experience' title='Experience'>
+            <Section dark={false} id='experience' title='Experience'>
                 <p>My experience</p>
             </Section>
 
@@ -41,7 +41,7 @@ class Main extends Component{
                 <p>My Projects</p>
             </Section>
 
-            <Section dark={true} id='contact' title='Contact'>
+            <Section dark={false} id='contact' title='Contact'>
                 <p>Contact Info</p>
             </Section>
 
