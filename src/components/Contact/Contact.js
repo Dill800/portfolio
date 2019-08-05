@@ -18,8 +18,10 @@ const contact = ( props ) => {
         href='https://www.linkedin.com/in/dillon-mcgovern-53334b168/'   src={LinkedIn} rounded size='mini' floated />
             </Col>
             <Col xs="4">
-            <Image as='a'
-        href='"mailto:dillonm800@gmail.com"'   src={Mail} size='mini' rounded floated />
+            {/* <Image as='a'
+        href='"mailto:dillonm800@gmail.com"'   src={Mail} size='mini' rounded floated /> */}
+
+            <h4>Email: dillonm800@gmail.com</h4>
 
         
             </Col>

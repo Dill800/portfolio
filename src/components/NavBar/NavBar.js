@@ -12,7 +12,7 @@ const NavBar = ( props ) => {
                 to="aboutme"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 >
                     About Me
@@ -24,7 +24,7 @@ const NavBar = ( props ) => {
                 to="experience"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 >
                     Experience
@@ -36,7 +36,7 @@ const NavBar = ( props ) => {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 >
                     Projects
@@ -48,7 +48,7 @@ const NavBar = ( props ) => {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 >
                     Contact
