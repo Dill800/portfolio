@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
 import NavBar from '../../components/NavBar/NavBar'
 import Section from '../../components/Section/Section'
-import Typist from 'react-typist'
+import AboutMe from '../../components/AboutMe/AboutMe'
+import Experience from '../../components/Experiences/Experiences'
+import Effect from 'react-reveal/Fade'
 import './Main.css'
 
 class Main extends Component{
@@ -16,32 +18,40 @@ class Main extends Component{
                  <NavBar/>
             <div id='welcomepage'>
                 <div id='welcomepage-overlay'>
-                <Section className="whiteheader" dark={false} id="home">
-
-                    <Typist>
-                    <h1>Hi, I'm Dillon McGovern</h1>
-                    <Typist.Delay ms={500}/>
-                        <i>Computer Science Student</i>
-                    </Typist>
-                    
-                </Section>
                 
+                    <div id='titleHeader'>
+                    <Effect top cascade duration="1500">
+                    <p>Hi, I'm Dillon McGovern.</p>
+                    <hr/>
+                    </Effect>
+                    
+                    <Effect delay="1500">
+                    <h4><i>Computer Science Student</i></h4>
+                    </Effect>
+                    
+
+                    </div>
+
                 </div>
             </div>
 
             <Section dark={true} id='aboutme' title='About Me'>
-                <p>Some information about myself</p>
+                <AboutMe/>
+                <br/><br/><br/>
             </Section>
 
-            <Section dark={true} id='experience' title='Experience'>
-                <p>My experience</p>
+            <Section dark={false} id='experience' title='Experience'>
+                <Effect>
+                <Experience/>
+                </Effect>
+                <br/><br/><br/>
             </Section>
 
             <Section dark={true} id='projects' title='Projects'>
                 <p>My Projects</p>
             </Section>
 
-            <Section dark={true} id='contact' title='Contact'>
+            <Section dark={false} id='contact' title='Contact'>
                 <p>Contact Info</p>
             </Section>
 

@@ -33,6 +33,31 @@
   }
    */
 
+  #titleHeader {
+
+    padding: 60px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(15, 6, 46);
+    font-family: "Times New Roman", Times, serif;
+
+  }
+
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 66%;               
+    background-color:rgb(19, 19, 4);
+    height: 1px;
+  }
+
+  .divider {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin: 5px
+  }
+
   .nav {
     background-color:  #000000;
     position: satic;
@@ -64,22 +89,34 @@
     cursor: pointer;
   }
   
-  .section {
-  }
-  
   .section-dark {
     background: #333;
     color: white;
   }
+
+  .section-gold {
+    background: rgb(150, 128, 68);
+    color: white;
+  }
   
+  #bio {
+    font-size: 20px;
+    text-align: left;
+  }
+
   .section-content {
-    max-width: 800px;
+    max-width: 2000px;
     margin: 0 auto;
     padding: 40px;
+    vertical-align: bottom
+  }
+
+  #experienceInfo {
+    text-align: left;
   }
   
   #welcomepage{
-    background-image: url('../../img/new_york_image.jpeg');
+    background-image: url('../../img/new_york_image2.jpg');
     background-size: cover;
     background-position: center center;
     position:relative;
