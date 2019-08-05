@@ -3,6 +3,7 @@ import NavBar from '../../components/NavBar/NavBar'
 import Section from '../../components/Section/Section'
 import AboutMe from '../../components/AboutMe/AboutMe'
 import Experience from '../../components/Experiences/Experiences'
+import Projects from '../../components/Projects/Projects'
 import Effect from 'react-reveal/Fade'
 import './Main.css'
 
@@ -48,7 +49,9 @@ class Main extends Component{
             </Section>
 
             <Section dark={true} id='projects' title='Projects'>
-                <p>My Projects</p>
+                <Effect>
+                <Projects/>
+                </Effect>
             </Section>
 
             <Section dark={false} id='contact' title='Contact'>

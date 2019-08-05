@@ -113,6 +113,12 @@
 
   #experienceInfo {
     text-align: left;
+    font-size: 18px;
+  }
+
+  #projectInfo {
+    text-align: left;
+    font-size: 18px;
   }
   
   #welcomepage{
@@ -128,7 +134,7 @@
   
   #welcomepage-overlay{
     position: absolute;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.1);
     top: 0;
     bottom: 0;
     height: 100%;
