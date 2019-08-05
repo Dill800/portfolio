@@ -4,7 +4,9 @@ import Section from '../../components/Section/Section'
 import AboutMe from '../../components/AboutMe/AboutMe'
 import Experience from '../../components/Experiences/Experiences'
 import Projects from '../../components/Projects/Projects'
+import Contact from '../../components/Contact/Contact'
 import Effect from 'react-reveal/Fade'
+import Effect2 from 'react-reveal/LightSpeed'
 import './Main.css'
 
 class Main extends Component{
@@ -37,8 +39,11 @@ class Main extends Component{
             </div>
 
             <Section dark={true} id='aboutme' title='About Me'>
+                <Effect>
                 <AboutMe/>
                 <br/><br/><br/>
+                </Effect>
+                
             </Section>
 
             <Section dark={false} id='experience' title='Experience'>
@@ -49,13 +54,13 @@ class Main extends Component{
             </Section>
 
             <Section dark={true} id='projects' title='Projects'>
-                <Effect>
+                <Effect duration='2500'>
                 <Projects/>
                 </Effect>
             </Section>
 
             <Section dark={false} id='contact' title='Contact'>
-                <p>Contact Info</p>
+                <Contact/>
             </Section>
 
             </div>

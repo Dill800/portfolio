@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Row, Col} from 'reactstrap'
-import {Grid, Image} from 'semantic-ui-react'
-import me from '../../img/hqdefault.jpg' 
+import {Image} from 'semantic-ui-react'
+import me from '../../img/me.jpg' 
 import 'semantic-ui-css/semantic.min.css'
 
 const aboutme = ( props ) => {
@@ -11,7 +11,7 @@ const aboutme = ( props ) => {
 
             <Row>
             <Col xs={{ size: 5, offset: 1 }}>
-            <Image src={me} size='medium' circular floated />
+            <Image src={me} size='medium' rounded bordered />
             </Col>
             <Col id='bio' xs="6">
             <p>Hello! I'm Dillon, an aspiring Software Engineer currently attending the University of Florida.

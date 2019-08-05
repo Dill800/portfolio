@@ -13,9 +13,11 @@ const projects = ( props ) => {
 
         <Item.Group id='projectInfo' divided>
 
+        
+
         <Item>
         
-        <Item.Image src={Mergium} size='medium' centered/>
+        <Item.Image src={Mergium} size='medium' rounded centered/>
         
             <Item.Content>
             <Item.Header className="ui large header" style={{ color: "gold" }}>
@@ -85,7 +87,9 @@ const projects = ( props ) => {
             <Item.Header className="ui large header" style={{ color: "gold" }}>
                 GNATS
             </Item.Header>
-            <br/>
+            <Item.Meta style={{ color: "white" }}>
+                <p>GeNetic Algorithm Training Software</p>
+            </Item.Meta>
             <Item.Description style={{ color: "white" }}>
                 
                 <p>
