@@ -10,6 +10,7 @@ const section = ( props ) => {
                 <MainEffect>
                     <h1><strong>{props.title}</strong></h1>
                 </MainEffect>
+
                 <br/><br/>
 
                 <p>{props.children}</p>
