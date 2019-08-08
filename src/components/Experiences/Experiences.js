@@ -1,52 +1,47 @@
 import React from 'react'
-import {Container, Item, Label, Divider} from 'semantic-ui-react'
-import HomeDepot from '../../img/homedepot2.jpg'
-import Effect from 'react-reveal/Slide'
+import {Label} from 'semantic-ui-react'
+import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import 'semantic-ui-css/semantic.min.css'
- 
+import 'react-vertical-timeline-component/style.min.css';
+import './Experiences.css'
+
 const experiences = ( props ) => {
     return(
 
-        <Container>
-
-        <Item.Group id='experienceInfo' divided>
-
-        <Item>
+        <Timeline linecolor={'#ddd'}>
+        <TimelineItem
+        key="001"
+        dateText="May 2019-August 2019"
+        dateInnerStyle={{ background:'#333' }}
+        style={{ color: '#333' }}
+      >
+        <h3 id='experienceInfo'><strong>The Home Depot - <i>Software Engineer Intern</i>   
+        <emsp/>
+        <img
+        src={require('../../img/thdround.jpg')}
+        class="ui avatar image"
+        alt=""
+        hspace='10'
+        />
+        </strong>
+        </h3>
+        <br/>
+        <p>
+        Worked on the Online Reporting and Cloud Analytics team to optimize the gross demand metrics dashboard.
+        </p>
         
-        <Item.Image src={HomeDepot} size='medium' centered/>
-        
-            <Item.Content>
-            <Item.Header className="ui large header" style={{ color: "black" }}>
-                The Home Depot - Software Engineer Intern
-            </Item.Header>
-            <Item.Meta style={{ color: "white" }}>
-                <p>May 2019 - August 2019</p>
-            </Item.Meta>
-            <Item.Description style={{ color: "white" }}>
-                
-                <p>
-                Worked on the Online Reporting and Cloud Analytics team to optimize the gross demand metrics dashboard.
-                </p>
-                
-                <p>
-                Integrated Natural Language Processing and Generation capabilities into the dashboard. Reduced backend query time by 80% and increased dashbaord 
-                update frequency from 1 hour to 15 minutes. Allowed users to view changes of all Home Depot stores down to the minute grain.
-                </p>
-            </Item.Description>
-            <Item.Extra>
-                
-                <Label className="ui large label">Python Flask</Label>
-                <Label className="ui large label">Google BigQuery</Label>
-                <Label className="ui large label">Tableau</Label>
-                <Label className="ui large label">Arria</Label>
-                
-            </Item.Extra>
-            </Item.Content>
-        </Item>
+        <p>
+        Integrated Natural Language Processing and Generation capabilities into the dashboard. Reduced backend query time by 80% and increased dashbaord 
+        update frequency from 1 hour to 15 minutes. Allowed users to view changes of all Home Depot stores down to the minute grain.
+        </p>
+      <br/>
+        <Label className="ui big label">Python Flask</Label>
+        <Label className="ui big label">Google BigQuery</Label>
+        <Label className="ui big label">Tableau</Label>
+        <Label className="ui big label">Arria (NLG)</Label>
 
-        </Item.Group>
-
-        </Container>
+      </TimelineItem>
+      </Timeline>
 
     )
 }

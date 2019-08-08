@@ -1,10 +1,10 @@
 import React from 'react'
-import {Container, Item, Label, Divider} from 'semantic-ui-react'
-import Mergium from '../../img/mergium2.gif'
+import {Container, Item, Label} from 'semantic-ui-react'
+import Mergium from '../../img/mergium.gif'
 import Fluid from '../../img/eulerfluid.gif'
 import Gnats from '../../img/gnats.gif'
-import Effect from 'react-reveal/Slide'
 import 'semantic-ui-css/semantic.min.css'
+import './Projects.css'
  
 const projects = ( props ) => {
     return(
@@ -17,10 +17,11 @@ const projects = ( props ) => {
 
         <Item>
         
-        <Item.Image src={Mergium} size='medium' rounded centered/>
+        <Item.Image as='a' src={Mergium} size='medium' target="_blank"
+        href='https://github.com/Dill800/senior-project-mergium' rounded centered/>
         
             <Item.Content>
-            <Item.Header className="ui large header" style={{ color: "gold" }}>
+            <Item.Header className="ui large header" style={{ color: "lightblue" }}>
                 Mergium
             </Item.Header>
             <br/>
@@ -50,17 +51,18 @@ const projects = ( props ) => {
 
         <Item>
         
-        <Item.Image src={Fluid} size='medium' rounded/>
+        <Item.Image as='a' src={Fluid} size='medium' target="_blank"
+        href='https://github.com/Dill800/euler-fluid' rounded/>
         
             <Item.Content>
-            <Item.Header className="ui large header" style={{ color: "gold" }}>
+            <Item.Header className="ui large header" style={{ color: "lightblue" }}>
                 Euler Fluid
             </Item.Header>
             <br/>
             <Item.Description style={{ color: "white" }}>
                 
                 <p>
-                Program based on this <a target="_blank" href="https://pdfs.semanticscholar.org/847f/819a4ea14bd789aca8bc88e85e906cfc657c.pdf">physics paper</a>.
+                Program based on this <a rel="noopener noreferrer" target="_blank" href="https://pdfs.semanticscholar.org/847f/819a4ea14bd789aca8bc88e85e906cfc657c.pdf">physics paper</a>.
                 </p>
                 
                 <p>
@@ -81,10 +83,11 @@ const projects = ( props ) => {
 
         <Item>
         
-        <Item.Image src={Gnats} size='medium' centered/>
+        <Item.Image as='a' src={Gnats} size='medium' target="_blank"
+        href='https://github.com/Dill800/GNATS' centered/>
         
             <Item.Content>
-            <Item.Header className="ui large header" style={{ color: "gold" }}>
+            <Item.Header className="ui large header" style={{ color: "lightblue" }}>
                 GNATS
             </Item.Header>
             <Item.Meta style={{ color: "white" }}>
@@ -93,7 +96,7 @@ const projects = ( props ) => {
             <Item.Description style={{ color: "white" }}>
                 
                 <p>
-                Inspired by CodeBullet's <a target="_blank" href="https://www.youtube.com/watch?v=BOZfhUcNiqk">Youtube video</a>.
+                Inspired by CodeBullet's <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=BOZfhUcNiqk">Youtube video</a>.
                 </p>
                 
                 <p>

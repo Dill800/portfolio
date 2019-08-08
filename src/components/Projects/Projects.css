@@ -1,0 +1,8 @@
+.ui.items>.item>.image>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: .025rem;
+    border: solid;
+    border-width: 1px;
+}

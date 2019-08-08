@@ -6,7 +6,6 @@ import Experience from '../../components/Experiences/Experiences'
 import Projects from '../../components/Projects/Projects'
 import Contact from '../../components/Contact/Contact'
 import Effect from 'react-reveal/Fade'
-import Effect2 from 'react-reveal/LightSpeed'
 import './Main.css'
 
 class Main extends Component{
