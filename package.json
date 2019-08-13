@@ -2,12 +2,14 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dill800.github.io/portfolio",
   "dependencies": {
     "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
-    "react": "^16.8.6",
+    "gh-pages": "^2.1.1",
+    "react": "^16.9.0",
     "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16.9.0",
     "react-https-redirect": "^1.1.0",
     "react-protected-mailto": "^1.0.3",
     "react-reveal": "^1.2.2",
@@ -22,10 +24,13 @@
     "vertical-timeline-component-for-react": "^1.0.6"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "install:clean": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && yarn install"
   },
   "eslintConfig": {
     "extends": "react-app"
