@@ -15,7 +15,8 @@ const aboutme = ( props ) => {
             </Col>
             <Col id='bio' xs="6">
             <p>Hello! I'm Dillon, an aspiring Software Engineer currently attending the University of Florida.
-                       I'm getting a Bachelors of Science in Computer Science, alongside minors in Mathematics and Physics. I
+                       I'm getting a Bachelors of Science in Computer Science, alongside minors in Mathematics and Physics. I plan on 
+                       graduating Spring of 2022. I
                        love learning more about the natural world and solving problems.
                  </p>
                  <hr/>
