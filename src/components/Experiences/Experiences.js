@@ -27,13 +27,17 @@ const experiences = ( props ) => {
         </h3>
         <br/>
         <p>
-        Worked on the Online Reporting and Cloud Analytics team to optimize the gross demand metrics dashboard.
+        I worked on the Online Reporting and Cloud Analytics team to optimize and improve the gross demand metrics dashboard.
         </p>
         
         <p>
-        Integrated Natural Language Processing and Generation capabilities into the dashboard. Reduced backend query time by 80% and increased dashbaord 
-        update frequency from 1 hour to 15 minutes. Allowed users to view changes of all Home Depot stores down to the minute grain.
+        Integrated Natural Language Processing and Generation capabilities into the dashboard to reduce data ambiguity. Restructured the backend, reducing the query time from
+        20 minutes to 2 minutes. This increased the dashboard refresh rate by 75%.
         </p>
+
+        <p>Incorporated minute-level data visulazation cabapilities. Business analysts can now track store performance within the hour.
+        </p>
+
       <br/>
         <Label className="ui big label">Python Flask</Label>
         <Label className="ui big label">Google BigQuery</Label>
