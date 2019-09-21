@@ -32,8 +32,8 @@ const projects = ( props ) => {
                 </p>
                 
                 <p>
-                I always thought it would be cool to combine Pokemon back when I was younger. So, I decided to make it a reality. Mergium 
-                is basically Pokemon but instead of evolving you get to merge the creatures instead. Only one person has beaten it so far (and no, it isn't me).
+                I always thought it would be cool to combine Pokémon back when I was younger. So, I decided to make it a reality. Mergium 
+                is basically Pokémon but instead of evolving you get to merge the creatures instead. Only one person has beaten it so far (and no, it isn't me).
                 </p>
             </Item.Description>
             <Item.Extra>

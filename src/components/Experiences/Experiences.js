@@ -35,7 +35,7 @@ const experiences = ( props ) => {
         20 minutes to 2 minutes. This increased the dashboard refresh rate by 75%.
         </p>
 
-        <p>Incorporated minute-level data visulazation cabapilities. Business analysts can now track store performance within the hour.
+        <p>Incorporated minute-level data visulazation capabilities. Business analysts can now track store performance within the hour.
         </p>
 
       <br/>

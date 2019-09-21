@@ -28,7 +28,7 @@ class Main extends Component{
                     </Effect>
                     
                     <Effect delay="1500">
-                    <h4><i>Computer Science Student</i></h4>
+                    <h4><i id='subtitle'>Computer Science Student</i></h4>
                     </Effect>
                     
 

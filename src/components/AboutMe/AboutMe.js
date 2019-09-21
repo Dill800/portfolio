@@ -19,7 +19,7 @@ const aboutme = ( props ) => {
                  problems.</strong>
                  </p>
                  <hr/>
-                 <p>I was born in New York, but grew up in Florida. My goal is to return back to NY once I finish my undergrad.</p>
+                 <p>Currently, I'm searching for <strong>Software Engineering internship</strong> positions throughout the United States.</p>
                  <hr/>
                  <p>If you have any questions, feel free to ask! My contact information is linked down below.</p>
             </Col>
