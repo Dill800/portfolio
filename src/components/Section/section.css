@@ -1,0 +1,80 @@
+.p1 {
+    background-color: #333;
+    opacity: 1;
+    background-position: center center;
+    position: absolute; 
+    
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-blend-mode: screen;
+}
+
+.p2 {
+    background-image: url('../../img/yarl.jpg');
+    opacity: 1;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.p3 {
+    background-image: url('../../img/blinds.jpg');
+    opacity: 1;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.section {
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    opacity: 1;
+
+    font-size: 60px;
+
+}
+
+.section-title {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    padding: 30px 0px 30px 0px;
+    color: rgb(223, 190, 115);
+
+    background-color: #252525;
+}
+
+.section-content {
+    display: block;
+    font-size: 25px;
+    text-align: left;
+    border-right: 1vw solid #252525;
+    border-left: 1vw solid #252525;
+    height: 100%;
+    opacity: 1;
+    position: relative;
+}
+
+
+.timeline-container {
+    flex-grow: 1;
+}
+
+.experience-block {
+    font-size: 20px;
+}
+
