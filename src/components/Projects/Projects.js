@@ -20,14 +20,10 @@ const Projects = ( props ) => {
     const hiddenFunctions = () => {
         return (
             <React.Fragment>
-            <ProjectTile image='gnats'/>
-            <ProjectTile image='gnats'/>
-            <ProjectTile image='gnats'/>
-            <ProjectTile image='gnats'/>
-            <ProjectTile image='gnats'/>
-            <ProjectTile image='gnats'/>
-            <ProjectTile image='gnats'/>
-            <ProjectTile image='gnats'/>
+            <ProjectTile image='mergium' title='Mergium'>
+                <p>Project I made senior year of high school.</p>
+                <p>I always thought it would be cool to combine Pokémon back when I was younger. So, I decided to make it a reality. Mergium is basically Pokémon but instead of evolving you get to merge the creatures instead. Only one person has beaten it so far (and no, it isn't me).</p>
+            </ProjectTile>
             </React.Fragment>
         )
     }
@@ -36,11 +32,12 @@ const Projects = ( props ) => {
 
         <div>
         <div className='projects'>
-                        <ProjectTile image='mergium' title='Mergium'>
-                            <p>Project I made senior year of high school.</p>
-                            <p>I always thought it would be cool to combine Pokémon back when I was younger. So, I decided to make it a reality. Mergium is basically Pokémon but instead of evolving you get to merge the creatures instead. Only one person has beaten it so far (and no, it isn't me).</p>
-                        </ProjectTile>
                         
+                        <ProjectTile image='burger' title='Resturant Finder'>
+                            <p>Project for SwampHacks 2020</p>
+                            <p>When you click a button, the application returns a random restaurant near your current location. This project introduced me to Node.js and connecting to third-party APIs.</p>
+                        </ProjectTile>
+
                         <ProjectTile image='gnats' title="GNATS">
                             <p>
                             Inspired by CodeBullet's <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=BOZfhUcNiqk">Youtube video</a>.

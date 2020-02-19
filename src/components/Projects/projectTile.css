@@ -1,8 +1,19 @@
 .tile {
     display: flex;
     
+    width: 100%;    
+}
+
+.projects {
+    height: 100%;
     width: 100%;
-    
+
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+
+    justify-items: center;
+
+
 }
 
 .gnats {
@@ -26,6 +37,20 @@
     height: 20vw;
     margin: 10% 5% 10% 5%;
     border-radius: 30px;
+}
+
+.burger {
+    background-image: url('../../img/burger.gif');
+    background-size: cover;
+    width: 100%;
+    height: 20vw;
+    margin: 10% 5% 10% 5%;
+    border-radius: 30px;
+}
+
+.burger:hover {
+    transition-duration: .2s;
+    border-radius: 15px;
 }
 
 .mergium:hover {
@@ -74,8 +99,10 @@
 }
 
 .show-more-button {
+    width: 15%;
+    min-width: 3vw;
     color: white;
-    font-size: 20px;
+    font-size: calc(8px + 1vw);
     font-family: helvetica;
     text-decoration: none;
     border: 2px solid white;
@@ -85,7 +112,7 @@
     -moz-transition-duration: .2s;
     background-color: black;
     padding: 4px 30px;
-    margin: -1% 1% 1% 1%;
+    margin: -2% 1% 1% 1%;
 }
 
 .show-more-button:hover {
@@ -99,6 +126,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5px;
 }
 
 *:focus {
@@ -107,4 +135,49 @@
 
 p {
     margin: 0% 1% 1% 1%;
+}
+
+
+@media (max-width: 900px) {
+    .projects {
+        grid-template-columns: 50% 50%;
+    }
+
+    .burger, .mergium, .gnats, .eulerfluid {
+        height: 30vw;
+    }
+
+    .project-title {
+        font-size: calc(5px + 3vw);
+    }
+
+    .project-desc {
+        font-size: calc(2vw)
+    }
+    
+    
+}
+
+@media (max-width: 500px) {
+    .projects {
+        grid-template-columns: 100%;
+    }
+
+    .show-more-button {
+        width: 50%;
+    }
+
+    .burger, .mergium, .gnats, .eulerfluid {
+        height: 60vw;
+    }
+
+    .project-title {
+        font-size: calc(20px + 3vw);
+    }
+
+    .project-desc {
+        font-size: calc(7px + 2vw)
+    }
+    
+    
 }

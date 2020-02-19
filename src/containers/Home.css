@@ -92,10 +92,6 @@
     animation: nameText 2.5s 1;
 }
 
-.yarl {
-    color: black;
-}
-
 .title {
     font-size: calc(14px + 1vw);
     color: white;
@@ -108,18 +104,6 @@
     font-family: 'Lucida Console', Times, serif;
 
     animation: titleText 2.5s 1;
-}
-
-.projects {
-    height: 100%;
-    width: 100%;
-
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-
-    justify-items: center;
-
-
 }
 
 .project-container {
@@ -171,4 +155,13 @@
         filter: grayscale(100%); 
     }
 
+}
+
+@media (max-width: 500px) {
+    .name {
+        font-size: calc(14px + 1vw);
+    }
+    .title {
+        font-size: calc(8px + 1vw);
+    }
 }

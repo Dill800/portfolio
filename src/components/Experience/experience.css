@@ -7,3 +7,9 @@
 br {
     margin: 5%;
 }
+
+@media (max-width: 500px) {
+    .experience-block {
+        font-size: 14px;
+    }
+}

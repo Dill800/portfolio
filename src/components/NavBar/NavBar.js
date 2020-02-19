@@ -45,18 +45,6 @@ const NavBar = (props) => {
                 Projects
                 </Link>
 
-
-                <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-                className="nav-element"
-                >
-                Contact
-                </Link>
             </div>
 
         </nav>
